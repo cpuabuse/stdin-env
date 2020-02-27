@@ -27,4 +27,15 @@ npm install cross-cat --global
 ```
 
 ### Example
+
+#### Input from `stdin`
+
+```bash
 date +%s | stdin-env START_TIME
+```
+
+#### Input from argument
+
+```bash
+stdin-env --key NODE_ENV --value PRODUCTION
+```
